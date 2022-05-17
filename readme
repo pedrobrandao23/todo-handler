@@ -11,4 +11,4 @@
         - Métodos (SetData, gatData, clearData)
  
 
-* O usuário deverá criar tarefas em 3 seções diferentes, e poderá manejá-las arrastando entre as seções. Esse recurso foi possibilitado através do recurso drag do JS. 
+* O usuário deverá criar tarefas em 3 seções diferentes, e poderá manejá-las arrastando entre as seções.Isso foi possibilitado através do recurso drag do JS. 
