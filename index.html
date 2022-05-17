@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>ToDo Handler</title>
+</head>
+
+<body>
+    <h1>ToDo Handler </h1>
+    <section class="boards">
+        <div class="board">
+            <h3>a fazer</h3>
+            <ul id="todo" ondrop="drop(event, this.id)" ondragover="over(event)">
+            </ul>
+            <div class="add-card" onclick="addCard(this)">
+                <p>adicionar tarefa</p>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>fazendo</h3>
+            <ul id="doing" ondrop="drop(event, this.id)" ondragover="over(event)">
+            </ul>
+            <div class="add-card" onclick="addCard(this)">
+                <p>adicionar tarefa</p>
+            </div>
+        </div>
+
+        <div class="board">
+            <h3>feito</h3>
+            <ul id="done" ondrop="drop(event, this.id)" ondragover="over(event)">
+            </ul>
+            <div class="add-card" onclick="addCard(this)">
+                <p>adicionar tarefa</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

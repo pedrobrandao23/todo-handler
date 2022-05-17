@@ -1,0 +1,14 @@
+* O projeto ToDo Handler foi proposto pela Driven, como uma forma de exercitar habilidades na programação web.
+
+* Nele foram aplicados conhecimentos em:
+    - HTML
+    - CSS responsivo com flex
+    - Javascript com:
+        - DOM
+        - Objeto Date() para criar ID's únicos
+        - Funções
+        - Condicionais
+        - Métodos (SetData, gatData, clearData)
+ 
+
+* O usuário deverá criar tarefas em 3 seções diferentes, e poderá manejá-las arrastando entre as seções. Esse recurso foi possibilitado através do recurso drag do JS. 
